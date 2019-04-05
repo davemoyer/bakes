@@ -14,6 +14,11 @@
         font-weight: normal;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .column:first-of-type {float:left}
+      .column:last-of-type {float:right}
+
+    .split-50 .column:first-of-type {width: 50%}
+    .split-50 .column:last-of-type {width: 50%}
     </style>
   </head>
   <body>
@@ -24,18 +29,27 @@ class: center, middle
 # bakes
 
 ---
-class: left
+class: split-50
+
 # Saturday 75% Wheat Bread
 ### Ken Forkish
+.column[
 One loaf was great and the other didn't quite have the rise. Gave half of the good one to Tim and Wendy and the other half to Auntie. We ate the less good one.
-
-.right[![Right-aligned image](https://photos.app.goo.gl/xyNnY8EZcNhXNPV29)]
+]
+.column[
+![:img my alt text, 50%](https://github.com/davemoyer/bakes/raw/master/images/wheat-75-small.jpg)]
+]
 
 ---
-class: left
+class: split-50
 # Maple Cinnamon Scones
 ### Mark Bittman
+.column[
 Nailed these. Great rise, really light and fluffy. The kids inhaled them. Really wet dough and took the full 12 minutes.
+]
+.column[
+right column
+]
 
 ---
 class: left
