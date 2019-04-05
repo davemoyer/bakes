@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>bakes</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .column:first-of-type {float:left}
+      .column:last-of-type {float:right}
+
+    .split-50 .column:first-of-type {width: 50%}
+    .split-50 .column:last-of-type {width: 50%}
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# bakes
+
+---
+class: split-50
+
+# Saturday 75% Wheat Bread
+### Ken Forkish
+.column[
+One loaf was great and the other didn't quite have the rise. Gave half of the good one to Tim and Wendy and the other half to Auntie. We ate the less good one.
+]
+.column[
+![:img my alt text, 50%](https://github.com/davemoyer/bakes/raw/master/images/wheat-75-small.jpg)]
+]
+
+---
+class: split-50
+# Maple Cinnamon Scones
+### Mark Bittman
+.column[
+Nailed these. Great rise, really light and fluffy. The kids inhaled them. Really wet dough and took the full 12 minutes.
+]
+.column[
+right column
+]
+
+---
+class: left
+# Rosemary Feta Whole Wheat Scones
+### Mark Bittman
+Not as good as the first batch. A little drier dough that possibly was overworked and underbaked. Flavors were also too subtle. I used rosemary from the bush outside, but I should've used more.
+
+---
+class: left
+# Overnight 40% Wheat Bread
+### Ken Forkish
+.column[
+These seemed to come out really well. I gave one to Sarah for her birthday and saved the other for home.
+]
+.column[
+![:img my alt text, 50%]()]
+]
+
+
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+        remark.macros.img = function (altText, width) {
+  var url = this;
+  return '<img alt="' + altText + '" src="' + url + '" style="width: ' + width + '" />';
+};
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
